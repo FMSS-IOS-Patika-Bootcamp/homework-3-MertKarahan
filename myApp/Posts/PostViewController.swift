@@ -64,6 +64,6 @@ extension PostViewController: UICollectionViewDelegate, UICollectionViewDataSour
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         
         let cellWidth = (UIScreen.main.bounds.width)
-        return CGSize(width: cellWidth, height: cellWidth * 0.5)
+        return CGSize(width: cellWidth, height: cellWidth * 0.6)
     }
 }
